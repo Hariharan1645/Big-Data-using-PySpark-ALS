@@ -1,0 +1,37 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# Large Datasets (Downloadable via download_data.py)
+data/*.csv
+!data/.gitkeep
+
+# Large Model Output Datasets (Generated via train.py)
+outputs/*.csv
+!outputs/.gitkeep
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Apache Spark / Derby logs
+metastore_db/
+derby.log
+spark-warehouse/

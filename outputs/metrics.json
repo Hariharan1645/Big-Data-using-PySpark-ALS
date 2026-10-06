@@ -1,0 +1,13 @@
+{
+    "rmse": 0.8266,
+    "mae": 0.652,
+    "best_rank": 10,
+    "best_maxIter": 10,
+    "best_regParam": 0.05,
+    "train_samples": 4781210,
+    "test_samples": 1195269,
+    "total_ratings": 5976479,
+    "total_users": 53424,
+    "total_books": 10000,
+    "overall_avg_rating": 3.92
+}
